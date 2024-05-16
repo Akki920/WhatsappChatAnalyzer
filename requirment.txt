@@ -3,7 +3,7 @@ pandas
 matplotlib
 seaborn
 streamlit
-urlextractor
+urlextract
 wordcloud
 collections
 emoji

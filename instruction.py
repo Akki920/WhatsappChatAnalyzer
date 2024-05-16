@@ -8,5 +8,5 @@ def content():
     st.write("2. Tap More option")
     st.write("3. Tap on 'Without Media' (will bring more support soon for with media)")
 
-    st.image("Images\guide_to_export_chat.jpg", caption="How to export chat")
+    st.image("Images/guide_to_export_chat.jpg", caption="How to export chat")
 
