@@ -62,7 +62,7 @@ def word_counter(user, df):
     temp = df[df['user']!='group_notification']
     temp = temp[temp['message'] != '<Media omitted>\n']
 
-    f = open("HinglishStopWordFile\stop_hinglish.txt", 'r')
+    f = open("HinglishStopWordFile/stop_hinglish.txt", 'r')
     stopWords = f.read()
     for msg in temp['message']:
         for word in msg.lower().split():

@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+streamlit
+urlextract
+wordcloud
+collections
+emoji
+streamlit-option-menu
