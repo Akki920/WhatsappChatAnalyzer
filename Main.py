@@ -18,11 +18,9 @@ def page_content():
         selected_user = st.selectbox("Select user", user_list)
 
         
+    pressed = st.button("Show Analysis")
 
-
-    if st.button("Show Analysis"):
-
-
+    if pressed and chat is not None:
         # fetching stats
 
         st.title("Top Statistics")
@@ -144,5 +142,7 @@ def page_content():
                 ax.pie(emojis[1].head(),labels=emojis[0].head(),autopct="%0.2f")
                 st.pyplot(fig)
 
+    if pressed and chat is None:
+        st.write("Please upload chat first")    
 
          

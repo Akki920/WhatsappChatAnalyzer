@@ -3,7 +3,8 @@ from streamlit_option_menu import option_menu
 import Main, instruction
 
 st.set_page_config(
-    page_title="WA Analyzer"
+    page_title="Whatsapp chat Analyzer",
+    page_icon="Images\Designer.jpeg"
 )
 
 class MultiPage:
